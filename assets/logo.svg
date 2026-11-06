@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0B0F1A"/>
+  <!-- Eye outline: sharp geometric, off-center, slanted -->
+  <polygon points="20,128 64,64 192,48 236,112 204,160 56,176" fill="none" stroke="#E8F1FF" stroke-width="3"/>
+  <!-- Eye inner glitch slice top -->
+  <polygon points="48,104 80,72 176,60 214,108 180,112 84,124" fill="#E8F1FF" opacity="0.06"/>
+  <!-- Stacked play-triangles forming eye/iris -->
+  <!-- back triangle (offset glitch) -->
+  <polygon points="84,96 84,144 124,120" fill="#FE2C55" opacity="0.35"/>
+  <!-- middle triangle -->
+  <polygon points="100,88 100,136 140,112" fill="#25F4EE"/>
+  <!-- front triangle (sharp) -->
+  <polygon points="112,80 112,128 152,104" fill="#FE2C55"/>
+  <!-- inner glitch cut across triangles -->
+  <polygon points="112,96 152,88 148,100 116,106" fill="#0B0F1A"/>
+  <!-- pupil: sharp diamond cut -->
+  <polygon points="128,92 136,104 128,116 120,104" fill="#E8F1FF"/>
+  <!-- Rising counter bar beneath eye -->
+  <!-- baseline slash -->
+  <polyline points="64,184 196,168" stroke="#25F4EE" stroke-width="3" fill="none"/>
+  <!-- bars rising, sharp, glitched -->
+  <polygon points="76,184 88,184 88,166 76,166" fill="#25F4EE"/>
+  <polygon points="96,182 108,182 108,158 96,158" fill="#25F4EE" opacity="0.85"/>
+  <polygon points="116,180 128,180 128,148 116,148" fill="#E8F1FF"/>
+  <polygon points="136,178 148,178 148,136 136,136" fill="#FE2C55"/>
+  <polygon points="156,176 168,176 168,124 156,124" fill="#FE2C55"/>
+  <polygon points="176,174 188,174 188,148 176,148" fill="#FE2C55" opacity="0.7"/>
+  <!-- glitch fragments: covert motion lines -->
+  <polygon points="60,140 84,136 80,142 58,146" fill="#25F4EE" opacity="0.6"/>
+  <polygon points="172,96 200,88 196,96 170,102" fill="#FE2C55" opacity="0.5"/>
+  <polygon points="140,68 160,62 158,68 138,74" fill="#E8F1FF" opacity="0.4"/>
+  <!-- tiny wordmark, small, corner -->
+  <text x="128" y="236" font-family="monospace" font-size="9" fill="#E8F1FF" text-anchor="middle" letter-spacing="2" opacity="0.55">tiktok-viewer-bot</text>
+</svg>
